@@ -13,6 +13,8 @@ const app = express();
 app.use(cors({
     origin: [
         'http://localhost:5173',
+        'https://frontend-pz22.onrender.com',
+        'https://apiproductos-dovt.onrender.com',
         
     ],
     
